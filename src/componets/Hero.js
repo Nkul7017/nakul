@@ -60,7 +60,7 @@ export default function Hero() {
   <p>I am <span className=" font-normal">Nakul Thakur</span></p>
  </div>
 
- <div className=" border border-black mt-[3vh] w-[80%] "></div>
+ <div className=" border border-black mt-[3vh] ab   "></div>
 
  <div className=" text-[32px] relative z-50 md:text-[48px] pt-[5vh] sm:leading-[8vh] font-semibold flex flex-col ">
     <p>A Fullstack Web</p>
