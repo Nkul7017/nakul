@@ -1,7 +1,7 @@
 function Skills() {
   return (
     <>
-    <div className=" w-screen relative overflow-hidden  ">
+    <div className=" w-screen h-max md:h-screen relative overflow-hidden  ">
     <img src="/skills/skills_svg1.svg" className="absolute right-[6vw]  -top-[10vh] " alt="" />
 <img src="/skills/skills_svg2.svg" className="absolute right-[2vw] z-[-1]    " alt="" />
       <div className=" w-[85vw] lg:w-[70vw] mx-auto  relative z-20 ">
