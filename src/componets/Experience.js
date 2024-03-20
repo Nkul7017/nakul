@@ -49,7 +49,7 @@ function Experience() {
    <>
    <div className={`flex flex-col md:flex-row lg:items-center gap-3 sm:gap-4 md:gap-10 ${i>0?"mt-6":""} `}>
    <p className='text-[16px] md:text-[24px]'>{item.role}</p>
-   <div className=' flex gap-5 '>
+   <div className=' flex flex-wrap gap-5 '>
     {item.skills.map(c=>
         <>
         <div className=" bg-[#4D4D4D] px-4 h-[24px] text-white text-[9px] md:text-[13px] grid place-content-center "><span>{c}</span></div>
