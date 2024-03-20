@@ -79,7 +79,7 @@ function Projects() {
               </div >
 
    <div className=' mt-[4vh]'>
-   <Link href='/projects' type=""
+   {/* <Link href='/projects' type=""
             class="relative inline-block text-lg group"
           >
             <span class="relative z-10 block px-5 py-2 h-[43px] overflow-hidden font-medium w-[157px] leading-tight text-gray-800 transition-colors duration-300 ease-out border border-gray-900  group-hover:text-white">
@@ -91,7 +91,7 @@ function Projects() {
               class="absolute bottom-0 right-0 w-full   transition-all duration-200 ease-linear bg-gray-900  group-hover:mb-0 group-hover:mr-0"
               data-rounded="rounded-lg"
             ></span>
-          </Link>
+          </Link> */}
    </div>
     </div>
     </div>

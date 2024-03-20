@@ -9,13 +9,13 @@ function Footer() {
    <a href="mailto:thakurnakul119@gmail.com" className=' text-[16px] md:text-[24px]'>thakurnakul119@gmail.com</a>
    </div>
    <div className=" flex  gap-5 sm:gap-12 items-center ">
- <a href="mailto:thakurnakul119@gmail.com" target='_blank'
+ <a href="/resume/NakulResume.pdf" download  target='_blank'
             class="relative inline-block text-lg group"
           >
             <span class="relative z-10 block px-5 py-2 h-[43px] overflow-hidden font-medium w-[157px] leading-tight text-gray-800 transition-colors duration-300 ease-out border border-gray-900  group-hover:text-white">
               <span class="absolute inset-0  w-full h-full bg-gray-50"></span>
               <span class="absolute left-0  h-48  transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-black group-hover:-rotate-180 ease"></span>
-              <span class="relative  text-[16px] flex justify-center">Connect Now</span>
+              <span class="relative  text-[16px] flex justify-center">Resume</span>
             </span>
             <span
               class="absolute bottom-0 right-0 w-full   transition-all duration-200 ease-linear bg-gray-900  group-hover:mb-0 group-hover:mr-0"
