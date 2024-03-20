@@ -10,19 +10,25 @@ import { Pagination, Navigation } from 'swiper/modules';
 function Projects() {
     const data=[
         {
-            project_name:"ShivaayShaktiyog",
-            skills:["React Js","MongoDB","TailwindCSS"],
-            desc:"Montserrat is a geometric sans-serif typeface designed by Argentine graphic designer Julieta Ulanovsky and released in 2011."
+            project_name:"Shivaay Shakti Yog",
+            skills:["React Js","MongoDB","TailwindCSS","Node JS"],
+            desc:"A MERN stack-powered platform offering transformative yoga courses, complemented by an intuitive admin panel for seamless management.",
+            images:"/main_projects/shivaay.png",
+            link:"https://www.shivaayshaktiyog.com/"
         },
         {
-            project_name:"ShivaayShaktiyog",
-            skills:["React Js","MongoDB","TailwindCSS"],
-            desc:"Montserrat is a geometric sans-serif typeface designed by Argentine graphic designer Julieta Ulanovsky and released in 2011."
+            project_name:"Shaadi Vyah",
+            skills:["Next Js","MongoDB","TailwindCSS","Node JS"],
+            desc:"Shaadi Vyah is the first destination wedding portal in Uttarakhand, revolutionizing the way weddings are planned and executed.",
+            images:"/main_projects/shaadivyah.png",
+            link:"https://www.shaadivyah.com/"
         },
         {
-            project_name:"ShivaayShaktiyog",
-            skills:["React Js","MongoDB","TailwindCSS"],
-            desc:"Montserrat is a geometric sans-serif typeface designed by Argentine graphic designer Julieta Ulanovsky and released in 2011."
+            project_name:"Edu 123",
+            skills:["Next Js","Airtable","TailwindCSS", "Cloudinary"],
+            desc:"Edu 123 serves as a comprehensive listing portal for schools, guiding parents and students to discover the best educational institutions.",
+            images:"/main_projects/edu123.png",
+            link:"https://www.edu123.in/"
         },
     ]
   return (
@@ -39,7 +45,7 @@ function Projects() {
 
    
 
-   <p className=' md:text-center pt-[10vh] sm:pt-[5vh] text-[16px] md:text-[24px] '>FEATURED PROJECTS <span className='hidden md:block text-[48px] ms-[3vw] font-semibold'>My Creations</span></p>
+   <p className=' md:text-center pt-[10vh] sm:pt-[5vh] text-[16px] md:text-[24px] '>FEATURED PROJECTS <span className='hidden md:inline text-[48px] ms-[3vw] font-semibold'>My Creations</span></p>
    <span className=' block md:hidden text-[36px] md:text-[48px]  font-semibold'>My Creations</span>
 
    <div className=' mt-[7vh] hidden gap-4 lg:gap-8 md:flex justify-between   '>
@@ -76,7 +82,7 @@ function Projects() {
    <Link href='/projects' type=""
             class="relative inline-block text-lg group"
           >
-            <span class="relative z-10 block px-5 py-3 h-[43px] overflow-hidden font-medium w-[157px] leading-tight text-gray-800 transition-colors duration-300 ease-out border border-gray-900  group-hover:text-white">
+            <span class="relative z-10 block px-5 py-2 h-[43px] overflow-hidden font-medium w-[157px] leading-tight text-gray-800 transition-colors duration-300 ease-out border border-gray-900  group-hover:text-white">
               <span class="absolute inset-0  w-full h-full bg-gray-50"></span>
               <span class="absolute left-0 w-[600px] h-48  transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-black group-hover:-rotate-180 ease"></span>
               <span  class="relative  text-[16px] flex justify-center">View All</span>

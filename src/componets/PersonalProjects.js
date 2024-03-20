@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import Card from './Card'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -7,28 +7,35 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
 function PersonalProjects() {
-    const data=[
-        {
-            project_name:"ShivaayShaktiyog",
-            skills:["React Js","MongoDB","TailwindCSS"],
-            desc:"Montserrat is a geometric sans-serif typeface designed by Argentine graphic designer Julieta Ulanovsky and released in 2011."
-        },
-        {
-            project_name:"ShivaayShaktiyog",
-            skills:["React Js","MongoDB","TailwindCSS"],
-            desc:"Montserrat is a geometric sans-serif typeface designed by Argentine graphic designer Julieta Ulanovsky and released in 2011."
-        },
-        {
-            project_name:"ShivaayShaktiyog",
-            skills:["React Js","MongoDB","TailwindCSS"],
-            desc:"Montserrat is a geometric sans-serif typeface designed by Argentine graphic designer Julieta Ulanovsky and released in 2011."
-        },
-    ]
+  const [toggle,setToggle]=useState(3);
+  const data=[
+    {
+        project_name:"Shivaay Shakti Yog",
+        skills:["React Js","MongoDB","TailwindCSS","Node JS"],
+        desc:"A MERN stack-powered platform offering transformative yoga courses, complemented by an intuitive admin panel for seamless management.",
+        images:"/main_projects/shivaay.png",
+        link:"https://www.shivaayshaktiyog.com/"
+    },
+    {
+        project_name:"Shaadi Vyah",
+        skills:["Next Js","MongoDB","TailwindCSS","Node JS"],
+        desc:"Shaadi Vyah is the first destination wedding portal in Uttarakhand, revolutionizing the way weddings are planned and executed.",
+        images:"/main_projects/shaadivyah.png",
+        link:"https://www.shaadivyah.com/"
+    },
+    {
+        project_name:"Edu 123",
+        skills:["Next Js","Airtable","TailwindCSS", "Cloudinary"],
+        desc:"Edu 123 serves as a comprehensive listing portal for schools, guiding parents and students to discover the best educational institutions.",
+        images:"/main_projects/edu123.png",
+        link:"https://www.edu123.in/"
+    },
+]
   return (
     <>
     
 <div className="   ">
-<p className='   text-[24px] '>Personal Projects </p>
+{/* <p className='   text-[24px] '>Personal Projects </p> */}
 </div>
 <div className=' mt-[7vh] hidden gap-4 lg:gap-8 md:flex justify-between   '>
    {data.map((item,i)=>

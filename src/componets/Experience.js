@@ -7,13 +7,13 @@ function Experience() {
             details:[
                 {
                     "role":"Full Stack Web Developer",
-                    skills:["ReactJS","MongoDB","TailwindCSS"],
-                    desc:"Montserrat is a geometric sans-serif typeface designed by Argentine graphic designer Julieta Ulanovsky and released in 2011. The typeface represent a much grounded and clean personality good for use in minimalist and modern designs."
+                    skills:["ReactJS","Next Js","MongoDB","TailwindCSS","Node JS"],
+                    desc:"Digital360india is a dynamic web development company focused on delivering cutting-edge solutions using modern technologies like ReactJS, Next Js, MongoDB, TailwindCSS, and Node JS. Our team creates sleek and functional web applications tailored to meet the unique needs of our clients. With a clean and minimalist design approach, we ensure an intuitive user experience that aligns with the latest design trends."
                 },
                 {
                     "role":"Full Stack Web Developer - Intern",
-                    skills:["ReactJS","MongoDB","TailwindCSS"],
-                    desc:"Montserrat is a geometric sans-serif typeface designed by Argentine graphic designer Julieta Ulanovsky and released in 2011. The typeface represent a much grounded and clean personality good for use in minimalist and modern designs."
+                    skills:["ReactJS","Next Js","MongoDB","TailwindCSS","Node JS"],
+                    desc:"Immersed in full-stack web development, honing skills under experienced mentorship."
                 }
             ]
         },
@@ -22,8 +22,8 @@ function Experience() {
             details:[
                 {
                     "role":"Web Development Intern",
-                    skills:["ReactJS","MongoDB","TailwindCSS"],
-                    desc:"Montserrat is a geometric sans-serif typeface designed by Argentine graphic designer Julieta Ulanovsky and released in 2011. The typeface represent a much grounded and clean personality good for use in minimalist and modern designs."
+                    skills:["ReactJS","MongoDB","TailwindCSS","Node JS","EJS"],
+                    desc:"As a Web Development Intern at Dream Tech, I had the opportunity to explore modern web technologies. Working with a focus on innovation and creativity, I contributed to projects involving ReactJS, MongoDB, TailwindCSS, Node JS, and EJS. It was an enriching experience that broadened my skill set and prepared me for my career."
                 }
             ]
         },
@@ -32,7 +32,7 @@ function Experience() {
    <>
    <div className=' w-screen pb-[10vh] lg:pb-0 lg:h-screen bg-[#1A1A1A]'>
    <div className="w-[85vw] lg:w-[70vw] mx-auto text-white  ">
-    <p className=' md:text-center pt-[5vh] text-[16px] md:text-[24px] '>EXPERIENCE<span className='hidden md:block text-[48px] ms-[3vw] font-semibold'>My Journey</span></p>
+    <p className=' md:text-center pt-[5vh] text-[16px] md:text-[24px] '>EXPERIENCE<span className='hidden md:inline text-[48px] ms-[3vw] font-semibold'>My Journey</span></p>
    <span className=' block md:hidden text-[40px] md:text-[48px]  font-semibold'>My Journey</span>
  <div className='mt-[5vh] '>
  {data.map((value,index)=>

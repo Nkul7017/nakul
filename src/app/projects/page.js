@@ -15,7 +15,7 @@ function Page() {
 </div>
   </div>
   <div className=" w-[85vw] mt-[10vh]   mx-auto "><PersonalProjects/></div>
-  <div className="w-[85vw] mt-[6vh]  mx-auto"><OrganizationalProjects/></div>
+  {/* <div className="w-[85vw] mt-[6vh]  mx-auto"><OrganizationalProjects/></div> */}
 <div className=" mt-[10vh]"><Footer/></div>
   </div>
     </>
