@@ -4,7 +4,7 @@ import Link from "next/link"
 function Card({data}) {
   return (
  <>
- <Link href={data.link} className=" overflow-hidden sm:w-[390px] flex flex-col gap-3">
+ <a href={data.link} target="_blank" className=" overflow-hidden sm:w-[390px] flex flex-col gap-3">
 <img src={data.images} className="lg:w-[390px] object-contain  lg:h-[276px]" alt="" />
 <p className=" text-[16px] lg:text-[24px] text-[#333333] font-semibold">{data?.project_name}</p>
 <div className=" flex flex-wrap gap-3 lg:gap-x-5">
@@ -17,7 +17,7 @@ function Card({data}) {
  <div>
     <span className=" text-[10px] lg:text-[12px]">{data.desc}</span>
  </div>
-</Link>
+</a>
  </>
   )
 }
