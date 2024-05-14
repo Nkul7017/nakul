@@ -9,7 +9,7 @@ function Footer() {
    <a href="mailto:thakurnakul119@gmail.com" className=' text-[16px] md:text-[24px]'>thakurnakul119@gmail.com</a>
    </div>
    <div className=" flex  gap-5 sm:gap-12 items-center ">
- <a href="/resume/NakulResume.pdf" download  target='_blank'
+ <a href="/resume/Nakul.pdf" download  target='_blank'
             class="relative inline-block text-lg group"
           >
             <span class="relative z-10 block px-5 py-2 h-[43px] overflow-hidden font-medium w-[157px] leading-tight text-gray-800 transition-colors duration-300 ease-out border border-gray-900  group-hover:text-white">
